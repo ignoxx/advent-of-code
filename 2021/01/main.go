@@ -43,5 +43,5 @@ func main() {
 		prevDepth = depth
 	}
 
-	fmt.Println("there are %v measurements that are larger than the previous measurement.", measurementCount)
+	fmt.Printf("there are %v measurements that are larger than the previous measurement\n", measurementCount)
 }
