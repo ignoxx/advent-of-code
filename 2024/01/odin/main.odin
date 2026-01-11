@@ -1,8 +1,6 @@
 package main
 
 import "core:fmt"
-import "core:math"
-import "core:mem"
 import "core:os"
 import "core:slice"
 import "core:strconv"
@@ -15,6 +13,7 @@ main :: proc() {
 
 	lefts := [dynamic]int{}
 	rights := [dynamic]int{}
+
 
 	for line in lines {
 		ids := strings.split(line, "   ")
@@ -34,3 +33,4 @@ main :: proc() {
 
 	fmt.printf("Total distance: %d\n", totalDistance)
 }
+
